@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+  "name": "Farlands Admin Panel",
+  "version": "1.0.0.1",
+  "description": "A panel that contains tools to make the game more fun",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["adminPanel.js"]
+    }
+  ]
+}
