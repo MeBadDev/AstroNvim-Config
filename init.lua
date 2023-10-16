@@ -16,7 +16,9 @@ return {
       --   ["remote3"] = "github_user", -- GitHub user assume AstroNvim fork
     },
   },
- -- Diagnostics configuration (for vim.diagnostics.config({...})) when diagnostics are on
+  colorscheme = "catppuccin-mocha",
+  -- Set colorscheme to use
+  -- Diagnostics configuration (for vim.diagnostics.config({...})) when diagnostics are on
   diagnostics = {
     virtual_text = true,
     underline = true,
